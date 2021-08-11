@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Roboto-Regular';
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ===================== HEADER =================== */
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.header-nav {
+    background: #322E41;
+}
+
+
+.header-content h1 {
+    font-size: 50px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 15px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background: url(img/Nike-Adapt-BB\ 1.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-nav__list-link li {
+    padding: 23px 14px;
+    transition: 500ms;
+}
+
+.header-nav__list-link li:hover {
+    color: #D47300;
+    background: white;
+}
+
+.header-content__span {
+    font-family: 'Roboto-Bold';
+}
+.header-nav__content i{
+    display: none;
+    visibility: hidden;
+}
+/* ===================== HEADER =================== */
+
+/* ===================== MAIN =================== */
+
+.main-cards__content {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0px, -40px);
+}
+
+.main-card__left {
+    max-width: 540px;
+    background: white;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 6px;
+
+}
+
+.card-left__title {
+    font-family: 'Roboto-Bold';
+    color: #2C2A2A;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.card-left__descr {
+    line-height: 19px;
+    color: #9B9B9B;
+    max-width: 510px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.card-right {
+    max-width: 255px;
+    background: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 6px;
+}
+
+.card-right__title {
+    text-align: center;
+}
+
+.main-cards__right {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 540px;
+    justify-content: space-between;
+}
+
+.card-right:nth-child(1),
+.card-right:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+/* ===================== MAIN =================== */
+
+/* ===================== FOOTER =================== */
+.footer {
+    background: #322E41;
+    padding: 37px 0 57px 0;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.footer-form input {
+    border-radius: 6px;
+}
+
+input {
+    border: none;
+}
+.steam{
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: red;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.input-name {
+    height: 34px;
+    color: #9B9B9B;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.input-message {
+    height: 86px;
+    color: #9B9B9B;
+    margin-bottom: 11px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.footer-btn {
+    background: #544294;
+    border-radius: 6px;
+    padding: 4px 0;
+    text-align: center;
+ 
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav__list-link{
+    transition: 400ms;
+}
+
+.footer-nav__list-link:hover{
+    color: #D47300;
+}
+
+/* ===================== FOOTER =================== */
